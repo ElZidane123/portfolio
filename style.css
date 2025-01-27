@@ -200,8 +200,7 @@ button{
     width: 28%;
     flex-direction: column;
     justify-content: flex-start;
-    transition-delay: 500ms;
-    transition: all;
+    transition: 0.5s;
 }
 
 .card h5{
@@ -209,7 +208,7 @@ button{
 }
 
 .card:hover{
-    transition-delay: 1s;
-    box-shadow:0 10px 20px rgba(0, 225, 255, 0.297);
-    background-color: rgba(143, 203, 255, 0.336);
+    width: 30%;
+    box-shadow:0 10px 20px rgba(86, 235, 255, 0.628) ;
+    background-color: rgba(143, 203, 255, 0.42);
 }
